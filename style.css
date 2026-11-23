@@ -1,0 +1,35 @@
+.bar-window, .bar { background: transparent; }
+.bar {
+  color: #c5c8ce;
+  padding: 2px 7px;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  font-weight: normal;
+}
+.bar button {
+  min-height: 0;
+  min-width: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 2px 8px;
+  box-shadow: none;
+  color: #bdbdbd;
+  background: #202020;
+}
+.bar button:hover { background: #383838; }
+.bar .apps { background: #d0d0d0; color: #111; font-weight: bold; }
+.bar button.apps:hover { background: #eee; }
+.bar .tag { background: #191919; color: #858585; }
+.bar .tag.occupied { background: #303030; color: #d0d0d0; }
+.bar .tag.active { background: #d0d0d0; color: #111; font-weight: bold; }
+.bar .tag.urgent { background: #663838; color: #fff; }
+.bar .chip {
+  border-radius: 4px;
+  background: #202020;
+  color: #bdbdbd;
+  padding: 2px 7px;
+}
+.bar .disconnected { background: #382626; color: #e0a0a0; }
+.bar .title { color: #999; padding: 2px 6px; }
+.bar .date { color: #888; }
+.bar .tray-item { background: transparent; padding: 0 2px; }
