@@ -35,3 +35,12 @@ space for windows.
   are still pending.
 
 Some icons require a font with Nerd Fonts glyphs.
+
+## Contributing
+
+Issues and pull requests are welcome. You can also fork the repository and
+share your own version under the [MIT License](LICENSE).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
